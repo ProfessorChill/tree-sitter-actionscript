@@ -4,7 +4,7 @@
   "main": "index.js",
   "types": "bindings/node",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": " ",
     "install": "node-gyp-build",
     "prebuildify": "prebuildify --napi --strip"
   },
@@ -38,6 +38,9 @@
   "tree-sitter": [
     {
       "scope": "source.actionscript",
+      "file-types": [
+        "as"
+      ],
       "injection-regex": "^actionscript$"
     }
   ]
